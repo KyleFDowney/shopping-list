@@ -1,0 +1,67 @@
+body{
+    background-color: Arial;
+}
+
+.container-fluid{
+    background-color: white;
+    margin: 2em 10vw 0 10vw;
+    padding-bottom: 2em;
+}
+
+#add-item-button{
+    background-color: green;
+    height: 3em;
+    font-size: 1em;
+    border-radius: 0.7em 0 0 0.7em;
+    border: none;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#add-item-button:hover{
+    background-color:#009000;
+}
+
+#add-item-button:active{
+    background-color: darkgreen;
+}
+
+#formField{
+    height: 3em;
+    font-size: 1em;
+    padding-left: 1em;
+    margin: 0;
+    border-radius: 0 0.7em 0.7em 0;
+    border: solid 2px lightgrey;
+    display: inline-block;
+}
+
+#list-item-add{
+    margin-top: 1em;
+}
+
+#alternateColor {
+    border: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#alternateColor td{
+    border: 0;
+    font-size: 1em;
+    padding-left: 1em;
+}
+
+tr:nth-child(odd) {
+    background-color: #f4f4db;
+}
+
+tr{
+    height: 3em;
+}
+
+table {
+  width: 100%;
+}
